@@ -1,0 +1,5 @@
+weight: 1
+name: "Research"
+icon: "fas fa-robot"
+url: "/research"
+description: "Since 2022 I am pursuing a PhD in Computer Science at the Czech Technical University in Prague, Faculty of Electrical Engineering. I focus on fraud detection and money laundering prevential in financial transaction data."
