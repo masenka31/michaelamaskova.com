@@ -26,37 +26,37 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Research"
     identifier = "menu.research"
-    url        = "/research"
+    url        = "/blog/research"
     weight     = 2
 
 [[menu.main]]
     name       = "Travel"
     identifier = "menu.travel"
-    url        = "/travel"
+    url        = "/blog/travel"
     weight     = 3
 
 [[menu.main]]
     name       = "Books & Writing"
     identifier = "menu.books"
-    url        = "/books-writing"
+    url        = "/blog/books_writing"
     weight     = 4
 
 [[menu.main]]
     name       = "Photography"
     identifier = "menu.photography"
-    url        = "/photography"
+    url        = "/blog/photography"
     weight     = 5
 
 [[menu.main]]
-    name       = "Music"
-    identifier = "menu.music"
-    url        = "/music"
+    name       = "Code"
+    identifier = "menu.code"
+    url        = "/blog/code"
     weight     = 6
 
 [[menu.main]]
-    name       = "Ultimate Frisbee"
-    identifier = "menu.ultimate"
-    url        = "/ultimate"
+    name       = "Sports"
+    identifier = "menu.sports"
+    url        = "/blog/sports"
     weight     = 7
 
 [[menu.main]]
@@ -68,10 +68,10 @@ pluralizelisttitles = false
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "Michaela Mašková"
+    defaultKeywords = ["hugo", "machine learning", "travel", "photography", "music", "book reviews"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = "Michaela Mašková (personal site)"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -86,7 +86,7 @@ pluralizelisttitles = false
     longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "blue"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -123,7 +123,7 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2025, Michaela Mašková. All rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -131,20 +131,12 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Universal"
+    logo_text = "Michaela Mašková"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
+    address = """Michaela Mašková<br>michaelamaskova@fel.cvut.cz"""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -206,7 +198,7 @@ pluralizelisttitles = false
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
+    title = "Latest blog posts"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
